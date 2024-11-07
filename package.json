@@ -1,12 +1,11 @@
 {
   "name": "@shie1/bytes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w"
+    "build": "tsup"
   },
   "keywords": [],
   "author": "Sonkoly Bence // @shie1",
@@ -15,6 +14,6 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^22.9.0",
-    "typescript": "^5.6.3"
+    "tsup": "^8.3.5"
   }
 }

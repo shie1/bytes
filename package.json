@@ -1,17 +1,40 @@
 {
   "name": "@shie1/bytes",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "scripts": {
     "build": "tsup"
   },
-  "keywords": [],
-  "author": "Sonkoly Bence // @shie1",
-  "license": "ISC",
-  "description": "",
+  "author": "Sonkoly Bence <shibibence@gmail.com>",
+  "license": "MIT",
+  "description": "A simple JavaScript/TypeScript module for formatting byte values, supporting both binary (IEC) and decimal (SI) units.",
   "type": "module",
+  "keywords": [
+    "byte",
+    "bytes",
+    "utility",
+    "parse",
+    "parser",
+    "convert",
+    "converter",
+    "format",
+    "formatter"
+  ],
+  "bugs": {
+    "url": "https://github.com/shie1/bytes/issues",
+    "email": "shibibence@gmail.com"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "homepage": "https://github.com/shie1/bytes#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shie1/bytes.git"
+  },
   "devDependencies": {
     "@types/node": "^22.9.0",
     "tsup": "^8.3.5"
